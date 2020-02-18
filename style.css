@@ -1,0 +1,44 @@
+.main_con{
+    width: 100%;
+}
+.head_title{
+    width:100%;
+    padding: 15px;
+    background-color: rgba(0,229,145,1);
+}
+h1{
+    font-size: 2em;
+    color: #ffffff;
+}
+h3{
+    background-color: rgba(0,229,145,1);
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 10px;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+.rec_name{
+    border: none;
+    outline: none;
+}
+.content_con{
+    width: 800px;
+    margin: 0 auto;
+}
+.shopping_list{
+    width: 300px;
+    margin-top: 90px;
+    border: 1px solid #d3d3d3;
+}
+.rec_row{
+    padding: 5px 10px;
+    border: 1px solid #d3d3d3;
+}
+.del_rec{
+    color: rgb(247, 0, 0);
+    float: right;
+}
+.dis_none{
+    display:none;
+}

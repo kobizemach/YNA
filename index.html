@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src='custom.js'></script>
+</head>
+<body>
+<div class='main_con'>
+    <div class='head_title'><h1>ShoppingList</h1></div>
+    <div class='content_con'>
+        <div class='shopping_list'>
+            <h3>ADD YOUR ITEMS HERE</h3>
+            <div class='recordes_con'>
+                <div class='db_rec_row'>
+
+                </div>
+                <form onsubmit='event.preventDefault(); insertRow();' action="">
+                    <div class='rec_row'>
+                        <input type="text" placeholder="Add item" class='rec_name add_item_in'>
+                    </div>
+                    <button class='dis_none'></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
